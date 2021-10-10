@@ -15,5 +15,4 @@ public class Ejercicio3 {
             System.out.println("");
         }
     }
-
 }
