@@ -21,7 +21,6 @@ public class Ejercicio1 {
         Ranking(ciudades);
     }
 
-
     public static void Ranking(List<String> ciu){
         int contador = 1;
         for (String ciudad:ciu){

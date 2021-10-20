@@ -10,7 +10,6 @@ public class Ejercicio7 {
         System.out.println("Ingrese el segundo número (mayor que el primero): ");
         int num2 = input.nextInt();
         System.out.println(Arrays.toString(fizzBuzzFuncion(num1,num2).toArray()));
-
         input.close();
     }
 
