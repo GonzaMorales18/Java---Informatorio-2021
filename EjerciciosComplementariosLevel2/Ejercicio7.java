@@ -17,9 +17,9 @@ public class Ejercicio7 {
     public static List<String> fizzBuzzFuncion(int x, int y){
         List<String> cadena = new ArrayList<>();
         for (int i=x; i<y; i++){
-            if (i%2==0){
+            if (i%2==0 && i%3!=0){
                 cadena.add("Fizz");
-            } else if (i%3==0) {
+            } else if (i%3==0 && i%2!=0) {
                     cadena.add("Buzz");
                 } else if (i%2==0 && i%3==0){
                         cadena.add("FizzBuzz");
